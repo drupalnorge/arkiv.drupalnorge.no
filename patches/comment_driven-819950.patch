@@ -1,0 +1,11 @@
+diff -r -U2 comment_driven.orig/comment_driven.module comment_driven/comment_driven.module
+--- comment_driven.orig/comment_driven.module	2013-01-12 08:23:41.000000000 +0100
++++ comment_driven/comment_driven.module	2012-06-14 21:36:09.000000000 +0200
+@@ -334,5 +334,6 @@
+   // restore original comment_form ids
+   // (which is only relevant from a theme support standpoint)
+-  _comment_driven_restore_ids($element);
++  // FIXME (DN) - applied patch from http://drupal.org/node/819950
++  // _comment_driven_restore_ids($element);
+   
+   return $element;
