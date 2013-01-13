@@ -1,0 +1,174 @@
+/* $Id$ */
+
+/*
++----------------------------------------------------------------+
+|   DnMagazine for Dupal 6.x - Version 1.0                       |
+|   Copyright (C) 2010 DrupalNorge.no All Rights Reserved.       |
+|   @license - NOCEDA MEDIA LAB - http://www.noceda.no           |
+|----------------------------------------------------------------|
+|   Theme Name: DnMagazine                                       |
+|   Description: Magazine-style theme for Drupal Norge           |
+|   Author: John Noceda                                      |
+|   Date: 11th of May 2011                                       |
+|   Website: http://www.drupalnorge.no/                          |
+|----------------------------------------------------------------+
+|   WRITE YOUR OWN STYLE HERE FOR EASIER UPGRADE IN THE FUTURE   |
+|                                                                |
++----------------------------------------------------------------+
+*/
+
+.make-right,
+img.imagefield-field_skjermbilde {
+  float:right;
+  padding: 0 0 0 10px;
+}
+
+.sf-menu.sf-style-space {
+  margin-bottom: 0
+}
+
+.sf-menu.sf-style-space li {
+  background: transparent;
+}
+
+.sf-menu.sf-style-space a {
+  border: none;
+}
+
+.sf-menu.sf-style-space li:hover, .sf-menu.sf-style-space li.sfHover, .sf-menu.sf-style-space li.active a, .sf-menu.sf-style-space a:focus, .sf-menu.sf-style-space a:hover, .sf-menu.sf-style-space a:active, .sf-menu.sf-style-space.sf-navbar li li {
+  background: #097829;
+}
+
+/* Aapen */
+.taxonomy_term_621, li.taxonomy_term_621, li.taxonomy_term_621 a,
+.taxonomy_term_726, li.taxonomy_term_726, li.taxonomy_term_726 a {
+  background: #990000;
+  color: #ffffff;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* Trenger mer info */
+.taxonomy_term_622, li.taxonomy_term_622, li.taxonomy_term_622 a,
+.taxonomy_term_729, li.taxonomy_term_729, li.taxonomy_term_729 a,
+.taxonomy_term_738, li.taxonomy_term_738, li.taxonomy_term_738 a {
+  background: #CC6633;
+  color: #ffffff;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* Ferdig, Lukket */
+.taxonomy_term_623, li.taxonomy_term_623, li.taxonomy_term_623 a,
+.taxonomy_term_721, li.taxonomy_term_721, li.taxonomy_term_721 a,
+.taxonomy_term_727, li.taxonomy_term_727, li.taxonomy_term_727 a,
+.taxonomy_term_728, li.taxonomy_term_728, li.taxonomy_term_728 a {
+  background: #34740E;
+  color: #ffffff;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+
+/* Floats all statuses on node pages */
+ul.links li.taxonomy_term_621,
+ul.links li.taxonomy_term_726,
+ul.links li.taxonomy_term_622,
+ul.links li.taxonomy_term_729,
+ul.links li.taxonomy_term_738,
+ul.links li.taxonomy_term_623,
+ul.links li.taxonomy_term_721,
+ul.links li.taxonomy_term_727,
+ul.links li.taxonomy_term_728 {
+  margin-right: 1em;
+}
+
+.node ul.links li.taxonomy_term_621 a,
+.node ul.links li.taxonomy_term_726 a,
+.node ul.links li.taxonomy_term_622 a,
+.node ul.links li.taxonomy_term_729 a,
+.node ul.links li.taxonomy_term_738 a,
+.node ul.links li.taxonomy_term_623 a,
+.node ul.links li.taxonomy_term_721 a,
+.node ul.links li.taxonomy_term_727 a,
+.node ul.links li.taxonomy_term_728 a {
+  float: right;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.node-teaser ul.links li.taxonomy_term_621 a,
+.node-teaser ul.links li.taxonomy_term_726 a,
+.node-teaser ul.links li.taxonomy_term_622 a,
+.node-teaser ul.links li.taxonomy_term_729 a,
+.node-teaser ul.links li.taxonomy_term_738 a,
+.node-teaser ul.links li.taxonomy_term_623 a,
+.node-teaser ul.links li.taxonomy_term_721 a,
+.node-teaser ul.links li.taxonomy_term_727 a,
+.node-teaser ul.links li.taxonomy_term_728 a {
+  float: none;
+  font-size: 1em;
+  font-weight: normal;
+  padding: 0 2px;
+}
+
+table {
+  width: 99%;
+}
+
+.view-norgeskatalog .views-view-grid td,
+.view-brukerliste .views-view-grid td {
+  width: 50%;
+  vertical-align: top;
+}
+
+.center,
+#block-block-1 .content,
+#block-block-23 .content {
+  text-align: center;
+}
+
+.makebutton {
+  display: inline-block;
+  height: 27px;
+  line-height: 27px;
+  background: url("../images/search_button_left.png") no-repeat left bottom;
+}
+
+
+.makebutton a {
+  cursor:pointer;
+  color: #fff;
+  display: inline-block;
+  font-family: Tahoma,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform:uppercase;
+  height: 27px;
+  line-height: 27px;
+  margin: 0 0 0 6px !important;
+  padding: 0 11px 0 5px !important;
+  border: none;
+  background: url("../images/search_button_right.png") no-repeat right bottom;
+}
+
+.makebutton:hover {
+  background: url("../images/search_button_left.png") no-repeat left top;
+}
+
+.makebutton a:hover {
+  text-decoration: none;
+  background: url("../images/search_button_right.png") no-repeat right top;
+}
+
+#comments .comment h2 {
+  padding-left: 0;
+  margin-bottom: 10px;
+  background: transparent;
+}
+
+.makebutton,
+.views-exposed-widget .button {
+  margin-top: 1em;
+}

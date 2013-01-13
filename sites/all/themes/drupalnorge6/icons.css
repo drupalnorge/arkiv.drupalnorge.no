@@ -1,0 +1,98 @@
+﻿/* $Id$ */
+
+/* icons */
+
+.terms
+{
+	background:url('icons/tag.png') no-repeat 10px 6px;
+	padding-bottom:10px;
+	padding-left:20px;
+}
+
+div.messages {
+	background: rgb(207, 255, 218) url('icons/info.png') 10px 50% no-repeat;
+}
+
+div.warning {
+	background: #F3CECE url('icons/dialog-warning.png') 10px 50% no-repeat;
+}
+
+div.error {
+	background: rgb(255, 207, 207) url('icons/dialog-error.png') 10px 50% no-repeat;
+}
+
+.comment_comments a
+{
+	background:url('icons/comment.png') no-repeat 0 2px;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+.node_read_more a
+{
+	background:url('icons/page_white_go.png') no-repeat;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+.comment_add a, .comment_reply a
+{
+	background:url('icons/comment_add.png') no-repeat;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+.comment_delete a {
+	background:url('icons/comment_delete.png') no-repeat;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+.comment_edit a {
+	background:url('icons/comment_edit.png') no-repeat;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+.blog_usernames_blog a {
+	background:url('icons/user_comment.png') no-repeat;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+.book_printer a {
+	background:url('icons/printer.png') no-repeat;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+.book_add_child a {
+	background:url('icons/page_add.png') no-repeat;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+/* custom typography styles */
+span.alert, span.help, span.info, span.note, span.info, span.errormsg {
+	padding: 10px 10px 10px 35px;
+}
+
+span.alert {
+	background: #F3CECE url('icons/dialog-warning.png') 10px 50% no-repeat;
+}
+
+span.errormsg {
+	background: #F3CECE url('icons/dialog-error.png') 10px 50% no-repeat;
+}
+
+span.help {
+	background: #CADAEF url('icons/help.png') 10px 50% no-repeat;
+}
+
+span.note {
+	background: #F8EFD0 url('icons/text-editor.png') 10px 50% no-repeat;
+}
+
+span.info {
+	background: #F8EFD0 url('icons/info.png') 10px 50% no-repeat;
+}

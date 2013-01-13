@@ -1,0 +1,110 @@
+/* $Id$ */
+
+/* nodes */
+.node{
+	padding: 10px;
+	margin-bottom: 7px;
+}
+
+.node h2.title{
+	margin-top: 5px;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.node .title a {
+	font-weight: bold;
+}
+
+.node .content{
+	margin-top: 8px;
+}
+
+.node .content a:link {
+	color: rgb(53, 74, 123);
+	background: transparent;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.node .content a:visited {
+	color: rgb(34, 68, 102);
+	background: transparent;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.node .content a:active {
+	color: rgb(102, 153, 204);
+	background: transparent;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.node .content a:hover {
+	color: rgb(200, 0, 0);
+	background: transparent;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.node .content a.external-link,.node .content a:link.external-link,.node .content a:visited.external-link{
+	color: rgb(0, 102, 153);
+	font-weight: normal 
+}
+
+.node .content a:hover.external-link {
+	color: #C80000;
+}
+
+.node .picture {
+	float: left;
+	padding: 4px;
+	margin-right: 4px;
+	background: rgb(240, 240, 240);
+}
+
+.node .taximage {
+	float: right;
+	padding: 4px;
+	margin-left: 4px;
+	background: rgb(255, 255, 255);
+}
+
+.node .date {
+}
+
+.node .author {
+}
+
+.node .terms {
+	font-size: 83%;
+}
+
+.node .info{
+	font-size: 83%;
+	font-style: italic;
+}
+
+.node .links{
+	font-size: 90%;
+	padding-left: 0px;
+	clear: both;
+}
+
+.node .submitted{
+	font-size: 83%;
+	font-style: italic;
+	text-align: left;
+}
+
+.node-sticky {
+	background: url(icons/mail-attachment.png) left top no-repeat;
+	border: rgb(221, 221, 221) solid 1px;
+	padding: 5px 10px 10px 35px;
+
+}
+
+.node table {
+	width: 100%;
+}

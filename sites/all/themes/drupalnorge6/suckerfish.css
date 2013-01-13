@@ -1,0 +1,123 @@
+/* $Id$ */
+/* another son of suckerfish...
+http://www.htmldog.com/articles/suckerfish/dropdowns/
+http://www.alistapart.com/articles/horizdropdowns
+*/
+#headertop .block{
+margin-bottom:0;
+padding-bottom:0
+}
+#headertop .block,#headertop	.box{
+padding:0
+}
+#headertop .title{
+display:none
+}
+#headertop{
+border-top:rgb(255,255,255) 1px solid;
+background:rgb(102, 0, 0);
+line-height:30px
+}
+#headertop ul.menu{
+padding:0 0 0 0px;/* top level ul */
+list-style:none;
+display:inline;
+z-index:100
+}
+#headertop a{
+padding:0px 14px 0px 14px;/* padding between menu elements */
+margin:0;
+display:block;
+background:url(images/menu_div.png) rgb(102, 0, 0) 100% 0 repeat-y;
+color:rgb(255,255,255);
+font-size:95%;
+font-weight: normal;
+text-decoration:none;
+line-height:25px
+}
+#headertop a:active,
+#headertop a:hover{
+background:rgb(0,0,63);
+text-decoration:none;
+line-height:25px
+}
+#headertop li{
+float:left;
+margin:0;
+padding:0;
+display:inline
+}
+/* second-level lists */
+#headertop ul.menu ul{
+padding:0;
+margin:0;
+list-style:none
+}
+#headertop ul.menu li ul{
+width:200px;
+position:absolute;
+left:-999em/* to hide menus because display:none isn't read by screen readers */
+}
+#headertop ul.menu li li{
+float:left;/* height:auto;*/
+width:200px
+}
+#headertop ul.menu li li a:link,
+#headertop ul.menu li li a:visited{
+width:170px;
+border-top:rgb(102, 0, 0) 1px solid;
+border-bottom:rgb(255,255,255) 1px solid;
+border-left:rgb(255,255,255) 1px solid;
+border-right:rgb(255,255,255) 1px solid;
+color:rgb(255,255,255);
+background:rgb(0,0,63)
+}
+#headertop ul.menu li li.expanded a{
+background:url(images/menu_arrow.png) rgb(0,0,63) 100% 50% no-repeat
+}
+#headertop ul.menu li li.expanded a:active,
+#headertop ul.menu li li.expanded a:hover{
+background:url(images/menu_arrow.png) rgb(102, 0, 0) 100% 50% no-repeat
+}
+#headertop ul.menu li ul a:active,
+#headertop ul.menu li ul a:hover{
+background:rgb(102, 0, 0);
+text-decoration:none
+}
+#headertop ul.menu li li.expanded ul.menu a{
+background:rgb(0,0,63)
+}
+#headertop ul.menu li li.expanded ul.menu a:active,
+#headertop ul.menu li li.expanded ul.menu a:hover{
+background:rgb(102, 0, 0)
+}
+#headertop ul.menu li li.expanded ul.menu li.expanded a{
+background:url(images/menu_arrow.png) rgb(0,0,63) 100% 50% no-repeat
+}
+#headertop ul.menu li li.expanded ul.menu li.expanded a:active,
+#headertop ul.menu li li.expanded ul.menu li.expanded a:hover{
+background:url(images/menu_arrow.png) rgb(102, 0, 0) 100% 50% no-repeat
+}
+#headertop ul.menu li li{
+}
+#headertop ul.menu li ul a{
+width:200px;
+color:rgb(255,255,255);
+font-size:95%;
+line-height:30px
+}
+#headertop ul.menu li ul a:active,
+#headertop ul.menu li ul a:hover{
+background:rgb(102, 0, 0);
+text-decoration:none
+}
+/* margin for pullouts */
+#headertop ul.menu li ul ul{
+margin:-33px 0 0 200px
+}
+#headertop ul.menu li:hover ul ul,#headertop	 ul.menu li:hover ul ul ul,#headertop	 ul.menu li.sfhover ul ul,#headertop	 ul.menu li.sfhover ul ul ul{
+left:-999em
+}
+#headertop ul.menu li:hover ul,#headertop	 ul.menu li li:hover ul,#headertop	 ul.menu li li li:hover ul,#headertop	 ul.menu li.sfhover ul,#headertop	 ul.menu li li.sfhover ul,#headertop	 ul.menu li li li.sfhover ul{
+left:auto
+}

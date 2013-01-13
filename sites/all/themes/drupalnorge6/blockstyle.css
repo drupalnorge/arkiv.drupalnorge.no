@@ -1,0 +1,105 @@
+/* $Id$ */
+/* Blocks */
+#header .block{
+padding-bottom:20px;
+padding-top:5px;
+margin-bottom:0px;
+margin-top:0px;
+background:rgb(102, 0, 0) url(images/header-block.png) repeat-x bottom;
+text-align:center;
+color:rgb(204, 204, 204);
+}
+#header .block h2.title{
+margin-top:0px;
+font-weight:bold;
+font-size:120%;
+text-align:center
+}
+
+.sidebar .block{
+border:rgb(255,255,255) solid 2px;
+font:90% Verdana,Arial,"Trebuchet MS","Century Gothic","Gill Sans MT",clean,sans-serif;
+margin-bottom:10px;
+padding-top:5px;
+background:rgb(255,255,255)
+}
+
+#headertop .block {
+margin-top:0px;
+margin-bottom:0px;
+padding-left:5px;
+padding-right:5px
+}
+
+.block{
+margin-top:10px;
+margin-bottom:10px;
+padding-left:5px;
+padding-right:5px
+}
+.block .picture{
+float:right;
+padding:4px;
+margin-left:4px;
+margin-right:4px;
+background:transparent
+}
+.block li{
+padding-left:0px;
+margin-left:0px
+}
+.block h2.title{
+margin-top:0px;
+font-weight:bold;
+font-size:120%;
+text-align:left
+}
+.sidebar .block h2.title{
+margin-top:0px;
+border-bottom: rgb(200, 0, 0) solid 2px;
+font-weight:bold;
+font-size:120%;
+text-align:left;
+color: rgb(200, 0, 0)
+}
+.block .content{
+padding-bottom:10px;
+background:transparent;
+vertical-align:bottom
+}
+.sidebar .block .content{
+padding-top:10px;
+padding-bottom:10px;
+background:transparent;
+vertical-align:bottom
+}
+.user-login-block{
+text-align:left
+}
+/* login block */
+#user-login-form{
+text-align:center
+}
+#user-login-form ul{
+text-align:left
+}
+
+#block-block-1 .content{
+padding-top:10px;
+padding-bottom:10px;
+background:transparent url(images/norsk-druplicon-transparent.png) no-repeat center;
+text-align:center;
+vertical-align:bottom
+}
+
+#block-search-0 .content{
+	text-align: center;
+	background: rgb(153, 0, 0);
+}
+
+#block-search-0{
+	border: rgb(102, 0, 0) solid 2px;
+	background: rgb(255, 255, 255);
+	padding-bottom: 4px;
+
+}

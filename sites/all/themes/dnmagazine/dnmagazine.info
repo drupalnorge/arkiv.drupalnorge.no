@@ -1,0 +1,35 @@
+; $Id$
+
+name        = DnMagazine
+description = Magazine-style theme for <a href="http://www.drupalnorge.no">Drupal Norge</a>
+screenshot  = dnmagazine.png
+core        = 6.x
+engine      = phptemplate
+version     = "6.x-1.0"
+
+stylesheets[all][]   = css/dnmagazine.css
+stylesheets[all][]   = css/custom.css
+
+regions[header]               = header
+regions[user_menu]            = user menu
+regions[search]               = search
+regions[navbar]               = navigation bar
+regions[showcase]             = showcase
+regions[highlight]            = highlight
+regions[left]                 = left sidebar
+regions[right]                = right sidebar
+regions[content_bottom_one]   = content bottom one
+regions[content_bottom_two]   = content bottom two
+regions[content_bottom_three] = content bottom three
+regions[content_bottom_four]  = content bottom four
+regions[content_bottom_five]  = content bottom five
+regions[closure_region]       = closure
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = primary_links
+

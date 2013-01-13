@@ -1,0 +1,527 @@
+/* $Id$ */
+/* Reset the basic elements to a baseline. */
+body{
+margin:0px;
+color:rgb(90,90,90);
+background:rgb(0,0,51) url(images/blue_code_bg.png) repeat;
+font:13px Verdana,Arial,"Trebuchet MS","Century Gothic","Gill Sans MT",clean,sans-serif;
+text-align:center;
+line-height:130%
+}
+a:link{
+color:rgb(53,74,123);
+background:transparent;
+font-weight: normal;
+text-decoration:none
+}
+a:visited {
+color: rgb(34,68,102);
+background: transparent;
+text-decoration: none
+}
+a:active {
+color: rgb(204,136,16);
+background: transparent;
+font-weight: bold;
+text-decoration: none
+}
+a:hover{
+color:rgb(200, 0, 0);
+background:transparent;
+font-weight:normal;
+text-decoration: underline; 
+}
+a.external-link,a:link.external-link,a:visited.external-link{
+color:rgb(53,74,123)
+}
+.navigation-primary a.external-link,.navigation-primary a:link.external-link,.navigation-primary a:visited.external-link{
+padding-right:11px;
+background:url(images/new-window.gif) no-repeat 100% 50%;
+color:rgb(204,204,204)
+}
+h1,h2,h3,h4,h5,h6{
+margin-top:10px;
+margin-bottom:0px;
+font-size:100%
+}
+h1{
+font-size:160%
+}
+h2{
+font-size:130%
+}
+h3{
+font-size:110%
+}
+h4{
+font-size:100%
+}
+h5{
+font-size:90%
+}
+h6{
+font-size:80%
+}
+p,ul,ol{
+margin-top:0px;
+margin-bottom:10px;
+font-size:100%
+}
+li{
+margin:0px;
+padding:0px
+}
+table{
+width:100%;
+font-size:inherit;
+border-collapse:collapse;
+border-spacing:0px
+}
+caption{
+text-align:left
+}
+th{
+border-bottom-width:1px;
+padding-bottom:2px;
+font-weight:normal;
+text-align:left
+}
+td{
+font-size:100%
+}
+form{
+margin:0px;
+padding:0px
+}
+fieldset{
+border:rgb(224,224,224) 1px solid;
+padding:10px
+}
+b,strong{
+font-weight:bold
+}
+i,em,u{
+font-style:italic
+}
+u{
+text-decoration:none
+}
+a img{
+border:0px
+}
+/** 99% for safari;100% is too large  */
+select,input,textarea{
+font:99% Verdana,Arial,Helvetica,clean,sans-serif
+}
+.small-print{
+font-size:80%
+}
+
+blockquote {
+background:transparent url(images/blockquote_start.png) no-repeat scroll 0 0;
+margin:10px 0;
+padding:10px 35px;
+font-style:italic;
+font-size:90%;
+text-align:justify;
+}
+
+/* Main page element styles */
+.navigation {
+border-top: rgb(51,51,51) solid 1px;
+background: #354A7B;
+text-align: center
+}
+
+.navigation-primary{
+margin:0;
+padding: 5px 0 0;
+white-space:nowrap;
+color:rgb(255,255,255);
+font-size:1em;
+font-weight:normal;
+line-height:1.4em;
+letter-spacing:1px;
+height:25px
+}
+.navigation-primary ul{
+float:right;
+margin:0;
+padding:0;
+list-style:none outside none;
+list-style-image:none
+}
+.navigation-primary li{
+margin:0;
+padding:0 0 2px;
+display:inline;
+background:none
+}
+.navigation-primary li a{
+padding:3px 10px;
+color:rgb(204,204,204);
+font-weight:bold;
+text-decoration:none
+}
+.navigation-primary li a:hover,.navigation-primary li a.active{
+color:rgb(255, 255, 255);
+font-weight:bold;
+text-decoration:underline
+}
+#masthead{
+background: rgb(40,56,94) url(images/header_bg.png) repeat-x bottom;
+vertical-align: middle;
+height: 110px;
+}
+
+#site_name{
+float:left;
+padding:0;
+vertical-align:middle
+}
+#masthead img.logo{
+float:left;
+padding:5px 10px 5px 20px;
+margin-left:0
+}
+#masthead .site-name{
+font-size:180%;
+line-height:220%;
+vertical-align:middle;
+font-weight:bold;
+margin-top:22px
+}
+#masthead h1.site-name a{
+color:rgb(255,255,255);
+font-size:180%;
+font-weight:bold;
+vertical-align:middle
+}
+#masthead form#search-theme-form{
+float:right;
+margin-top:10px;
+padding-top:10px;
+vertical-align:top
+}
+
+#headerbottom {
+margin: -30px 10% 10px;
+width: 80%;
+padding: 0;
+line-height: 1.4em;
+height: 20px;
+}
+
+#breadcrumb {
+	background: #354A7B;
+}
+
+.breadcrumb {
+text-align: left;
+padding: 16px 0 10px 2%;
+margin: 0;
+font-size: 1em;
+font-weight: bold;
+color: rgb(200,200,200);
+}
+
+.breadcrumb a{
+color:rgb(255,255,255);
+font-weight:bold
+}
+.breadcrumb a:hover,.breadcrumb a:active{
+color:rgb(220,0,0);;
+background:transparent;
+text-decoration:none
+}
+
+.site-slogan {
+float: none;
+margin-right: 20px;
+margin-left: 0;
+color: rgb(255,255,255);
+font-size: 1em;
+font-weight: bold;
+text-align: left;
+}
+
+#container{
+clear:both;
+background:rgb(255,255,255);
+margin-left: 10%;
+margin-right: 10%;
+text-align:center;
+}
+
+.clearfix:after {
+  content: "."; /* This dot is the actual appended content */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block;
+}
+
+.sidebar{
+margin-top:10px;
+text-align:left;
+background:rgb(255,255,255);
+}
+#sidebar-left{
+float:left;
+width:20%
+}
+#sidebar-right{
+float:left;
+width:20%
+}
+#page{
+float:left;
+margin-top:10px;
+margin-bottom:10px;
+background:rgb(255,255,255);
+text-align:left;
+overflow:hidden;
+min-height:500px
+}
+
+#footer{
+clear:both;
+padding-top:20px;
+padding-bottom:5px;
+background:rgb(102, 0, 0) url(images/footer_bg.png) repeat-x top;
+text-align:center;
+color:rgb(204, 204, 204);
+}
+
+#footer a:link{
+color:rgb(255,255,255);
+background:transparent;
+font-weight:bold;
+text-decoration:none
+}
+
+#trademark{
+clear:both;
+margin-top:20px;
+margin-bottom:20px;
+text-align:center;
+color:rgb(220, 220, 220);
+}
+
+#trademark a:link{
+color:rgb(207,222,255);
+background:transparent;
+font-weight:bold;
+text-decoration:none
+}
+
+#trademark a.external-link, #trademark a:link.external-link, #trademark a:visited.external-link{
+padding-right:11px;
+color:rgb(207,222,255)
+}
+
+/* Common page items */
+#page h2.title{
+font-size:180%;
+line-height:120%;
+font-weight:bold;
+letter-spacing:1px
+}
+#page .mission{
+border:rgb(204,204,204) 1px solid;
+margin:0.32em 0 0.85em;
+padding:1em;
+color:rgb(53,74,123);
+background:rgb(247,247,247)
+}
+#page .tabs{
+margin-left:0px
+}
+#page .help{
+}
+div.messages{
+padding:10px 10px 10px 30px;
+margin:0 10px;
+border-top:rgb(153,223,169) 2px solid;
+border-bottom:rgb(153,223,169) 2px solid;
+display:block;
+color:rgb(51,51,51);
+background:rgb(207,255,218)
+}
+div.warning{
+padding:10px 10px 10px 30px;
+margin:0 10px;
+border-top:2px solid rgb(208,64,64);
+border-bottom:2px solid rgb(208,64,64);
+display:block;
+color:rgb(51,51,51);
+background:rgb(243,206,206)
+}
+div.error{
+padding:10px 10px 10px 30px;
+margin:0 10px;
+border-top:rgb(255,111,111) 2px solid;
+border-bottom:rgb(255,111,111) 2px solid;
+display:block;
+color:rgb(51,51,51);
+background:rgb(255,207,207)
+}
+/* admin-panel */
+#page .admin-panel{
+border:rgb(255,236,218) solid 1px;
+margin-bottom:10px;
+background:rgb(255,255,255) url(images/headliner.gif) repeat-x top;
+}
+/* Override drupal.css */
+#user-login-form{
+text-align:left
+}
+.more-link{
+padding-bottom:10px
+}
+/* Content specific */
+.center{
+text-align:center
+}
+
+/* here are the tables in content area */
+#page th {
+	border-bottom: rgb(211, 231, 244) 2px solid;
+	color: rgb(73, 73, 73);
+	font-weight: bold;
+}
+
+#page tbody {
+	border-top: none;
+}
+
+#page th a:link, #page th a:visited {
+	color: rgb(111, 157, 189);
+	font-weight: bold;
+}
+
+#page tr.even, #page tr.odd, #page tbody th {
+	border: rgb(211, 231, 244) solid;
+	border-width: 1px 0;
+}
+
+#page tr.odd, #page tr.info {
+	background: rgb(224, 235, 239);
+}
+
+#page tr.even {
+	background: rgb(255, 255, 255);
+}
+
+#page tr.odd td.active {
+	background: rgb(221, 236, 245);
+}
+
+#page tr.even td.active {
+	background: rgb(230, 241, 247);
+}
+
+.small-print {
+	font-size: 80%;
+}
+
+/* custom typography styles */
+span.alert,span.help,span.info,span.note,span.info,span.errormsg{
+padding:10px 20px 10px 20px;
+display:block
+}
+span.alert{
+border-top:2px solid rgb(208,64,64);
+border-bottom:2px solid rgb(208,64,64);
+background:rgb(243,206,206);
+margin-left, margin-right: 30px
+}
+span.errormsg{
+border-top:2px solid rgb(208,64,64);
+border-bottom:2px solid rgb(208,64,64);
+background:rgb(243,206,206);
+margin-left, margin-right: 30px
+}
+span.help{
+border-top:2px solid rgb(48,96,160);
+border-bottom:2px solid rgb(48,96,160);
+background:rgb(202,218,239),
+margin-left, margin-right: 30px
+}
+span.note{
+border-top:2px solid rgb(230,204,98);
+border-bottom:2px solid rgb(230,204,98);
+background:rgb(248,239,208);
+margin-left, margin-right: 30px
+}
+span.info{
+border-top:2px solid rgb(230,204,98);
+border-bottom:2px solid rgb(230,204,98);
+background:rgb(248,239,208);
+margin-left, margin-right: 30px
+}
+
+/*big centered text */
+.bigcenter{
+font-size: 200%;
+font-style: normal;
+text-align: center;
+}
+
+.make-right {
+float: right;
+margin-right: 10px;
+}
+
+div.maincontent{
+background:rgb(255,255,255);
+}
+
+div.field-field-skjermbilde{
+float:right;
+margin: 0 0 0 1em;
+border: medium solid rgb(230,230,230);
+}
+
+div.view-display-id-block_1 td.col-1 {
+text-align: center;
+}
+
+div.view-display-id-block_1 td.col-1 div.views-field-title {
+text-align: center;
+padding-bottom:1em
+}
+
+div.view-id-norgeskatalog .views-view-grid .col-1, div.view-id-norgeskatalog .views-view-grid .col-1 {
+width: 50%;
+}
+
+#twitter-follow {
+border:0 none;
+position:fixed;
+right:0;
+top:200px;
+}
+
+/* For visning av status i forumtraader */
+
+/* Status = aapen */
+.taxonomy_term_621, a .taxonomy_term_621, .taxonomy_term_621 a {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+/* Status = trenger mer info */
+.taxonomy_term_622, a .taxonomy_term_622, .taxonomy_term_622 a {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+
+/* Status = ferdig */
+.taxonomy_term_623, a .taxonomy_term_623, .taxonomy_term_623 a {
+  background: lime;
+  color: black;
+  font-weight: bold;
+}

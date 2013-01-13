@@ -1,0 +1,30 @@
+;$Id$
+name = Drupal Norge for D6
+description = Tableless, multi-column, fluid width starter theme.
+core = 6.x
+engine = phptemplate
+
+; Stylesheets
+stylesheets[all][] = layout.css
+stylesheets[all][] = drupalnorge6.css
+stylesheets[all][] = blockstyle.css
+stylesheets[all][] = nodestyle.css
+stylesheets[all][] = commentstyle.css
+stylesheets[all][] = commentstyle.css
+stylesheets[all][] = icons.css
+stylesheets[all][] = suckerfish.css
+stylesheets[print][] = print.css
+
+; Scripts
+scripts[] = js/external-link.js
+scripts[] = js/suckerfish.js
+
+; Regions
+regions[headertop] = Header Top
+regions[header] = Header
+regions[headerbottom] = Header Bottom
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[contenttop] = Content Top
+regions[content] = Content
+regions[footer] = Footer

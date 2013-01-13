@@ -1,0 +1,65 @@
+/* $Id$ */
+/* comments */
+.comment{
+border:rgb(103,130,155) solid;
+border-width:1px;
+margin-top:1.2em;
+padding:.5em
+}
+.comment h4.title{
+font-size:120%
+}
+.comment span.new{
+border:rgb(153,223,169) 1px solid;
+margin-top:10px;
+margin-bottom:10px;
+color:rgb(51,51,51);
+background:rgb(207,255,218)
+}
+.comment .content{
+}
+.comment .content a:link{
+color:rgb(0,102,153);
+background:transparent;
+font-weight:bold;
+text-decoration:none
+}
+.comment .content a:visited{
+color:rgb(34,68,102);
+background:transparent;
+font-weight:bold;
+text-decoration:none
+}
+.comment .content a:active{
+color:rgb(102,153,204);
+background:transparent;
+font-weight:bold;
+text-decoration:none
+}
+.comment .content a:hover{
+color:rgb(200, 0, 0);
+background:transparent;
+font-weight:bold;
+text-decoration:none
+}
+.comment .content a.external-link,.comment .content a:link.external-link,.comment .content a:visited.external-link{
+padding-right:11px;
+background:url(images/new-window.gif) no-repeat 100% 50%;
+color:rgb(0,102,153);
+font-weight:bold
+}
+.comment .picture{
+float:left;
+padding:4px;
+margin-right:4px;
+background:rgb(240,240,240)
+}
+.comment .date{
+}
+.comment .author{
+padding-bottom:5em
+}
+.comment .links{
+clear:left
+font-size:90%
+}
