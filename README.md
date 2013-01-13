@@ -3,7 +3,7 @@ drupalnorge.no
 
 The Drupal installation behind drupalnorge.no
 
-This repo use a Drush makefile to track Drupal core and modules, 
+This repo uses a Drush makefile to track Drupal core and modules, 
 version and any applied patches.
 
 Only costum modules and themes are committed to repo.
