@@ -6,7 +6,7 @@ The Drupal installation behind drupalnorge.no
 This repo uses a Drush makefile to track Drupal core and modules, 
 version and any applied patches.
 
-Only costum modules and themes are committed to repo.
+Only custom modules and themes are committed to repo.
 
 To get started clone repository as usual, then run
 
