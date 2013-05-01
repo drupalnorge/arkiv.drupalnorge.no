@@ -86,6 +86,8 @@ projects[rules][version] = "1.5"
 
 projects[signup][version] = "1.0"
 
+projects[spambot][version] = "3.4"
+
 projects[subscriptions][version] = "1.5"
 
 projects[superfish][version] = "1.8"
