@@ -48,7 +48,7 @@ projects[filefield][version] = "3.10"
 
 projects[google_analytics][version] = "3.5"
 
-projects[honeypot][version] = "1.13"
+projects[honeypot][version] = "1.14"
 
 projects[imageapi][version] = "1.10"
 
@@ -72,7 +72,7 @@ projects[libraries][version] = "1.0"
 
 projects[link][version] = "2.9"
 
-projects[mollom][version] = "1.16"
+projects[mollom][version] = "2.4"
 
 projects[path_redirect][version] = "1.0-rc2"
 
