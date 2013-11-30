@@ -26,7 +26,7 @@ projects[checkbox_validate][version] = "2.1"
 projects[codefilter][version] = "1.0"
 
 projects[comment_driven][version] = "1.0-alpha3"
-projects[comment_driven][patches][] = "http://drupalnorge.no/patches/comment_driven-819950.patch"
+projects[comment_driven][patch][] = "http://arkiv.drupalnorge.no/patches/comment_driven-819950.patch"
 
 projects[cck][version] = "2.9"
 
