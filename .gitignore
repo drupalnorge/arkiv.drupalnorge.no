@@ -7,6 +7,14 @@ files/
 sites/*/files
 sites/*/private
 
+# Ignore all non-custom themes/modules, and all libraries.
+sites/*/modules/*
+!sites/*/modules/custom
+sites/*/themes/*
+!sites/*/themes/dnmagazine
+!sites/*/themes/drupalnorge6
+sites/*/libraries
+
 # Ignore default text files
 .htaccess
 robots.txt
