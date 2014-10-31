@@ -2,7 +2,7 @@
 core = 6.x
 
 api = 2
-projects[drupal][version] = "6.29"
+projects[drupal][version] = "6.33"
 
 ; Modules
 projects[views_bulk_operations][version] = "1.13"
@@ -32,7 +32,7 @@ projects[cck][version] = "2.9"
 
 projects[css_gzip][version] = "1.3"
 
-projects[custom_breadcrumbs][version] = "1.5"
+projects[custom_breadcrumbs][version] = "1.6"
 
 projects[date][version] = "2.9"
 
@@ -44,7 +44,7 @@ projects[driven][version] = "1.0-alpha3"
 
 projects[email][version] = "1.4"
 
-projects[filefield][version] = "3.10"
+projects[filefield][version] = "3.13"
 
 projects[google_analytics][version] = "3.5"
 
@@ -92,7 +92,7 @@ projects[subscriptions][version] = "1.5"
 
 projects[superfish][version] = "1.8"
 
-projects[tagadelic][version] = "1.3"
+projects[tagadelic][version] = "1.5"
 
 projects[token][version] = "1.19"
 
